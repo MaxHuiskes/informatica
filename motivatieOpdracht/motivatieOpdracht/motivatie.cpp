@@ -9,8 +9,6 @@ void motivatie::openFile(std::string path) {
         {
             std::cout << text;
         }
-        prt = text;
-        std::cout << prt << std::endl;
         myfile.close();
     }
 
